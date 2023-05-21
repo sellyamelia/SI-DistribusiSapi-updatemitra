@@ -63,9 +63,7 @@
                     </div>
                     <!-- table  -->
                     <?php if(isset($_GET['add'])): ?>
-
                         <form class="mt-2" action="" method="post">
-                         
                             <div class="form-group">
                                 <label for="nama">Nama</label>
                                 <input id="nama" name="nama" type="text" class="form-control" required>
