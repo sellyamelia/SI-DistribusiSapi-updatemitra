@@ -94,6 +94,7 @@
                         </form>
                     <?php endif?>
 
+
                     <?php if(!isset($_GET['add']) && !isset($_GET['edit'])): ?>
                         <div class="my-4">
                         <table id="example" class="table table-striped" style="width:100%">
@@ -133,6 +134,7 @@
         </div>
     <!-- ============================================================== -->
 <!-- End Wrapper -->
+
 
 <script>
     $(document).ready(function () {
