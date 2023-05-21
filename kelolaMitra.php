@@ -63,6 +63,7 @@
                     </div>
                     <!-- table  -->
                     <?php if(isset($_GET['add'])): ?>
+
                         <form class="mt-2" action="" method="post">
                             <div class="form-group">
                                 <label for="nama">Nama</label>
@@ -74,6 +75,7 @@
                             </div>
                             <button type="submit" class="btn btn-block btn-success" name="create">Tambah</button>
                         </form>
+                        
                     <?php endif?>
 
                     <?php if(isset($_GET['edit'])): ?>
